@@ -1,0 +1,6 @@
+
+Qual Ã© o valor do saque: Traceback (most recent call last):
+  File "D:\Users\ALUNO\OneDrive\Documentos\códigos\laurie\atividades\savio-alves_mini_caixa_eletronico.py", line 19, in <module>
+    saque = int(input("\nQual é o valor do saque: "))
+                ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

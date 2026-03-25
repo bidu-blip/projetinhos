@@ -1,0 +1,278 @@
+ls
+rm -rf obs-teste/
+ls
+rm -rf Nova\ pasta/ 
+ls
+rm -rf IoT_tinkercad/
+tree /bin
+ls /
+ls /bin
+sleep 2
+ssh
+'pwd
+pwd
+ls Desktop
+rmdir teste
+ls teste
+pwd
+ls
+cd 'Desktop'
+ls
+rmdir teste
+exit
+ls
+ls Desktop/
+find -name amostra.py
+cd OneDrive/desktop.ini 
+cd Desktop
+ls --sort=name
+ls 
+cd ../Documents/códigos/
+ls
+cd isabell/
+ls
+python -OO hello-world.py 
+python -OO -u hello-world.py 
+python -OO -u hello-world.py 
+python -OO -u hello-world.py 
+python -OO -u hello-world.py 
+python -OO -u hello-world.py 
+python -OO -u hello-world.py 
+python -OO -u hello-world.py 
+python hello-world.py 
+python hello-world.py 
+whereis python
+whereis python
+python
+claer
+clear
+ls OneDrive/Docu
+pwd
+ls
+cd $HOMEPATH/Documents/códigos/
+ls
+ls
+tar.exe $HOMEPATH/Downloads/laurie-codes.tar 
+tar.exe $HOMEPATH/Downloads/laurie-codes.tar 
+tar.exe -xv $HOMEPATH/Downloads/laurie-codes.tar 
+tar.exe -xvf $HOMEPATH/Downloads/laurie-codes.tar 
+ls
+mkdir laurie
+mv -v * laurie/
+ls
+mv -v laurie/isabell/ .
+ls
+pwd
+rm -v $HOMEPATH/Downloads/laurie-codes.tar 
+ls
+cd laurie/
+python jogos/jogo-da-velha.py 
+python jogos/forca.py 
+env
+python jogos/forca.py 
+clear
+exit
+ls
+pwd
+vi .bashrc
+source .bashrc 
+vi .bashrc
+source .bashrc
+cd $LAURIE_CODES 
+pwd
+vi .bashrc
+source .bashrc
+cd $LAURIE_CODES 
+python jogos/forca.py 
+python jogos/forca.py 
+cd $LAURIE_CODES/
+ls
+ls data/clonagens/
+ls data/clonagens/
+ls data/clonagens/
+cd $LAURIE_CODES/data/clonagens/
+ls
+ls
+ls
+ls
+ls
+ls
+ls
+exit
+cat .bashrc 
+printenv LAURIE_CODES
+cd $LAURIE_CODES/
+ls
+python jogos/forca.py 
+python jogos/forca.py 
+ls data/
+ls data/clonagens/
+python -OO variacao-de-hardlinks.py 
+clear
+python -u -OO variacao-de-hardlinks.py 
+ls data/clonagens/
+python -u -OO variacao-de-hardlinks.py 
+python -u -OO variacao-de-hardlinks.py 
+python -u -OO variacao-de-hardlinks.py 
+python -u -OO variacao-de-hardlinks.py 
+python -u -OO variacao-de-hardlinks.py 
+python -u -OO variacao-de-hardlinks.py 
+python -u -OO variacao-de-hardlinks.py 
+python -u -OO variacao-de-hardlinks.py 
+python -u -OO variacao-de-hardlinks.py 
+python -u -OO variacao-de-hardlinks.py 
+clear
+stat data/clonagens/sorteio-de-números.py
+python -u -OO variacao-de-hardlinks.py 
+python -u -OO variacao-de-hardlinks.py 
+ls
+ls data/clonagens/
+stat senoide-animação.py 
+rm -v data/clonagens/*
+python -u -OO variacao-de-hardlinks.py 
+ls data/clonagens/
+rm -v data/clonagens/*
+python -u -OO variacao-de-hardlinks.py 
+rm -v data/clonagens/*
+python -u -OO variacao-de-hardlinks.py 
+python -u -OO variacao-de-hardlinks.py 
+cd ..
+ls
+cd laurie/
+rm -rv *
+tar -xvf $HOME/Downloads/laurie-codes.tar 
+ls
+ls data/
+ls data/clonagens/
+ls data/clonagens/
+ls data/clonagens/
+ls data/clonagens/
+ls data/clonagens/
+ls data/clonagens/
+clear
+python variacao-de-hardlinks.py 
+ls data/clonagens/
+python -OO -u variacao-de-hardlinks.py 
+python -OO -u variacao-de-hardlinks.py 
+ls data/clonagens
+python -OO -u variacao-de-hardlinks.py 
+python -OO -u variacao-de-hardlinks.py 
+clear
+python -OO -u variacao-de-hardlinks.py 
+clear
+python -OO -u variacao-de-hardlinks.py 
+ls
+stat sorteio-de-números.py 
+ls data/downloads/
+clear
+python -u -OO uso-maximo-da-maquina.py 
+python -OO sorteio-de-números.py 
+python -u -OO sorteio-de-números.py 
+ls
+python -u -OO sorteio-de-números.py 
+cd $LAURIE_CODES 
+cd Documents/c�digos/
+ls
+cd laurie/
+ls
+ls
+rm -v *.bak
+ls
+python -OO -u contagem-infinita.py 
+python main.py
+python main.py
+python main.py
+python atividades/casa/savio-alves_tabuada.py 
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+clear
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+python main.py
+set PYTHONIOENCODING=utf8
+python main.py
+python --help
+python --help-env
+set PYTHONLEGACYWINDOWSSTDIO='utf-8'
+python main.py
+python main.py
+history
+grep -i "python -m unittest"
+history --help
+cd $LAURIE_CODES 
+cd Documents/c�digos/
+cd laurie/
+ls
+cd jogos/
+git config --global user.name "S�vio"
+git config --global user.email "savio.bidu@aluno.senai.br"
+git add .
+ls
+ls -a
+git init
+git add .
+git commit -m "Colocarei um novo arquivo. O 'jogo da forca'.
+git commit -m "Colocarei um novo arquivo. O 'jogo da forca'."
+git branch -M main
+git push -u origin main
+ls
+rm -v tempCodeRunnerFile.py 
+git push -f origin main
+cd ..
+ls
+history 
+history -d 234
+history 
+vi $HOMEPATH/.bashrc 
+history -d 239
+history
+history -d 239, 246
+history -d 239:246
+history -d 239,246
+history -d 238
+history
+history -d 236
+history
+vi $HOMEPATH/.bashrc 
+history
+history
+history
+history
+exit
+exit
+cat .bash_histo
+cat ~/.bash_history
+history
+vi $HOMEPATH/.bashrc 
+cat .bash_history 
+cat -n .bash_history 
+vi .bash_profile 
+vi .bashrc 
+source .bashrc 
+vi .bashrc 
+history
+history
+vi .bashrc 
+vi .bashrc 
+vi .bashrc 
+exit

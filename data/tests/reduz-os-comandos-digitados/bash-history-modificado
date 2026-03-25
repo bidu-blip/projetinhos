@@ -1,0 +1,16 @@
+exit
+vi .bashrc 
+vi .bashrc 
+vi .bashrc 
+history
+history
+vi .bashrc 
+source .bashrc 
+vi .bashrc 
+vi .bash_profile 
+cat -n .bash_history 
+cat .bash_history 
+vi $HOMEPATH/.bashrc 
+history
+cat ~/.bash_history
+cat .bash_histo
