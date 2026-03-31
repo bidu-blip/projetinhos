@@ -49,6 +49,27 @@ def despejas_no_arquivo(pilha: Stack, arquivo: open) -> None:
 		if contagem > LIMITE:
 			break
 
+def remove_um_tipo_de_comando(comando: str, In: Stack) -> Stack:
+	assert (isinstance(comando, str))
+	assert (isinstance(In, Stack))
+
+	comprimento = In.qsize()
+	auxiliar = Stack(comprimento)
+	Out = In
+
+	while not Out.empty():
+		remocao = Out.get()
+
+		if comando in remocao:
+			pass
+		else:
+			auxiliar.put(remocao)
+	
+	# Colocando novamente na pilha, no mesmo formato inicialmente.
+	while not auxiliar.empty():
+		Out.put(auxiliar.get())
+	return Out
+
 #   O algoritimo funcionaria deste modo. Ele abre o arquivo(em modo de leitura) com histórico de 
 # comandos, ler linha por linha. Cada linha desta lida, será empilhada numa pilha, isso porque 
 # é preciso invertela a sequência coletada. Você ler no arquivo da primeira linha dele, no 
@@ -70,6 +91,24 @@ if __name__ == "__main__":
                                     Testes Unitários
 *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** 
 """
+class FiltroDoComandoHistory(TestCase):
+
+	def runTest(self):
+		ARQUIVO_DE_TRABALHO = "./projetinhos/data/tests/reduz-os-comandos-digitados/bash-history"
+
+		if __debug__:
+			print("Caminho existe? {}".format(Path(ARQUIVO_DE_TRABALHO).exists()))
+		
+		# Colocando todos as linhas do arquivo de histórico numa 'pilha'.
+		with open(ARQUIVO_DE_TRABALHO, "rt") as arquivo:
+			Input = empilha_todas_suas_linhas(arquivo)
+			print("Total empilhado(antes): {} linhas".format(Input.qsize()))
+			Output = remove_um_tipo_de_comando("history", Input)
+			print("Total empilhado(depois): {} linhas".format(Input.qsize()))
+		
+		self.assertTrue(Input.qsize() > Output.qsize())
+
+
 class EmpilhamentoDeLinhasDoBashHistory(TestCase):
 	def runTest(self):
 		# Colocando todos as linhas do arquivo de histórico numa 'pilha'.
